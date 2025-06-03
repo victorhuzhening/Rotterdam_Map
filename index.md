@@ -7,7 +7,7 @@ layout: default
 Below is an interactive preview of the Rotterdam Touch Grass map. Use your mouse wheel to zoom in and out.
 
 <div class="image-container">
-  <img src="/test_squirrel_img.jpg" alt="Embed Map">
+  <img src="Rotterdam_Map/test_squirrel_img.jpg" alt="Embed Map">
 </div>
 
 <script>
