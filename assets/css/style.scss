@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@font-face {
+  font-family: 'Salama-Regular';
+  src: url('/assets/fonts/Salama-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Regular', sans-serif;
+}
