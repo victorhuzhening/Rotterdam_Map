@@ -21,3 +21,20 @@
 body {
   font-family: 'Salama-Regular', sans-serif;
 }
+
+.btn {
+  background-color: #1c895d;  
+  color: white;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #08593a;  
+  color: white;
+}
+
