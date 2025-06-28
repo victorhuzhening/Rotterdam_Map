@@ -2,12 +2,10 @@
 layout: default
 ---
 
-## Map Preview
-
 ***
 
 <div class="image-window">
-  <img id="zoom-image" img src="./test_squirrel_img.jpg" alt="Zoomable-Pannable-Map">
+  <img id="zoom-image" src="https://github.com/victorhuzhening/rotterdam_map/releases/download/v1.1/rotterdam_map.png" alt="Zoomable-Pannable-Map">
 </div>
 
 <style>
@@ -84,9 +82,3 @@ layout: default
     image.style.transform = `scale(${scale})`;
   });
 </script>
-
-***
-
-## About the artist
-
-The Rotterdam Touch Grass map was created by Sara Baldwin as her graduation project at Willem de Kooning Academy. This map is supposed to verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim verbatim.
