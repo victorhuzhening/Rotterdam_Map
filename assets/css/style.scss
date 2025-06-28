@@ -4,20 +4,20 @@
 @import "{{ site.theme }}";
 
 .page-header {
-  background-image: url('/assets/images/header.png');
+  background-image: url('{{ "/assets/images/header.png" | relative_url }}');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: transparent; 
+  background-color: transparent;
 }
 
 @font-face {
   font-family: 'Salama-Regular';
-  src: url('/assets/fonts/Salama-Regular.ttf') format('truetype');
+  src: url('{{ "/assets/fonts/Salama-Regular.ttf" | relative_url }}') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: 'Regular', sans-serif;
+  font-family: 'Salama-Regular', sans-serif;
 }
