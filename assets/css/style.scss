@@ -23,18 +23,21 @@ body {
 }
 
 .btn {
-  background-color: #1c895d;  
-  color: white;
-  border: none;
+  display: inline-block;
   padding: 0.6em 1.2em;
-  border-radius: 4px;
+  margin: 0.3em 0;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.15); 
+  border-radius: 0.3em;
   text-decoration: none;
   font-weight: bold;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #08593a;  
-  color: white;
+  background-color: rgba(255, 255, 255, 0.3); 
+  color: #ffffff;
 }
+
 
