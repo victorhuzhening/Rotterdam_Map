@@ -13,7 +13,7 @@ layout: default
   OpenSeadragon({
     id: "openseadragon",
     prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
-    tileSources: "/Rotterdam_Map/assets/deepzoom/rotterdam_map.dzi"
+    tileSources: "/rotterdamoutdoorbikermap.org/assets/deepzoom/rotterdam_map.dzi"
   });
 </script>
 
